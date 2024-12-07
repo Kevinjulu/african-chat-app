@@ -269,7 +269,7 @@ const ChatRoom = ({ socket, room, username }) => {
                 value={message}
                 onChange={handleTyping}
                 placeholder="Type your message..."
-                className="w-full px-4 py-2 rounded-full bg-orange-50 focus:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-200 transition-all"
+                className="w-full px-4 py-2 rounded-full bg-orange-100 text-gray-800 focus:bg-orange-200 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all"
               />
             </div>
 
